@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+}
+th {
+    font-size: 2em;
+    border: 1px solid gray;
+    border-collapse:collapse;
+    background-color: rgb(143, 231, 143);
+    padding: 5px;
+}
+td {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.button {
+    text-align: center;
+}
+button {
+    background-color: rgb(143, 231, 143);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
