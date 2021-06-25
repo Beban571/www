@@ -21,17 +21,20 @@ img {
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     position: absolute;
     top: 10px;
     font-size: 1.5em;
     color: white;
+    
 }
 .divhover {
     padding: 5px;
+    margin-right: 35px;
 }
 .divhover:hover {
-    background-color: rgba(245, 245, 245, 0.575);
+    background-color: rgba(245, 245, 245, 0.178);
+    border-radius: 10px;
 }
 .centered {
     position: absolute;
@@ -57,4 +60,20 @@ img {
     height: 200px;
     background-color: rgb(241, 241, 241);
     box-shadow:2px 2px 5px 1.5px grey;  
+}
+.icons {
+    position: absolute;
+    left: 40%  ;
+    font-size: 3em;
+    top: -2%;
+    color: honeydew;
+}
+i {
+    margin-left: 7px;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 35px;
+}
+i:hover {
+    color: rgb(160, 160, 160);
 }
