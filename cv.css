@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.header {
+width: 100%;
+}
+.content {
+    width: 100%;
+    position: absolute;
+    top: 600px;
+    height: 100%;
+    background-color: white;
+}
+.img1 {
+    position: relative;
+    filter: blur(2px);
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 10px;
+    font-size: 1.5em;
+    color: white;
+    
+}
+.divhover {
+    padding: 5px;
+    margin-right: 35px;
+}
+.divhover:hover {
+    background-color: rgba(245, 245, 245, 0.178);
+    border-radius: 10px;
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+}
+.centered2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.8em;
+}
+.content1 {
+    position: relative;
+    left: 15%;
+    top: 7%;
+    width: 70%;
+    height: 180px;
+    background-color: rgb(241, 241, 241);
+    box-shadow:2px 2px 5px 1.5px grey;  
+}
+.icons {
+    position: absolute;
+    left: 40%  ;
+    font-size: 3em;
+    top: -2%;
+    color: honeydew;
+}
+
+i {
+    margin-left: 7px;
+    background-color: gray;
+    padding: 15px;
+    border-radius: 50px;
+}
+i:hover {
+    color: rgb(160, 160, 160);
+}
+.img {
+    position: absolute;
+    left: 23.7%;
+    top: 30%;
+}
+.img2 {
+    position: absolute;
+    right: 23.7%;
+    top: 81.6%;
+}
+.img3 {
+    position: absolute;
+    left: 23.7%;
+    top: 133.2%;
+}
+.img4 {
+    position: absolute;
+    right: 23.7%;
+    top: 184.8%;
+}
+.p1 {
+    font-size: 1.2em;
+    padding: 20px;
+}
+.content2 {
+    position: absolute;
+    top: 33%;
+    left: 52%;
+    max-width: 30%;
+    background-color: rgb(241, 241, 241);
+    box-shadow:2px 2px 5px 1.5px grey;  
+}
+.content3 {
+    position: absolute;
+    top: 85%;
+    right: 52%;
+    max-width: 30%;
+    background-color: rgb(241, 241, 241);
+    box-shadow:2px 2px 5px 1.5px grey;  
+}
+.content4 {
+    position: absolute;
+    top: 137%;
+    left: 52%;
+    max-width: 30%;
+    background-color: rgb(241, 241, 241);
+    box-shadow:2px 2px 5px 1.5px grey;  
+}
+.content5 {
+    position: absolute;
+    top: 189%;
+    right: 52%;
+    max-width: 30%;
+    background-color: rgb(241, 241, 241);
+    box-shadow:2px 2px 5px 1.5px grey;  
+}
+.content6 {
+    width: 100px;
+    display: flex;  
+    background-color: green;
+    height: 200px;
+}

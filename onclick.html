@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-size: 1.5em;
+            }
+
+            .header {
+                width: 100vw;
+                background-color: cadetblue;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            img {
+                margin: 10px;
+            }
+            .logo {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            ul {
+                display: flex;
+            }
+            ul li {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                padding: 15px;
+                
+            }
+            .btn {
+                background-color: blanchedalmond;
+                padding: 4px;
+                border-radius: 5px;
+                display: none;
+                margin: 10px;
+            }
+            .menu {
+                background-color: gray;
+                padding: 5px;
+                display: none;
+            }
+            .menuu {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+            
+            @media screen and (max-width: 500px){
+                .btn {
+                    display: block;
+                }
+                ul li {
+                    display: none;
+                }
+                .logo {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .header {
+                    position: relative;
+                }
+            }
+
+            </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                    <img src="bridge1.jpg" height="50" width="50"/>
+                    <button class="btn" id="btn">Menu</button>
+            </div>
+            <ul>
+                <li>About</li>
+                <li>Info</li>
+                <li>Contact</li>
+            </ul>
+            <div class="menuu">
+            <div class="menu" id="menu">About</div>
+            <div class="menu" id="menu">Info</div>
+            <div class="menu" id="menu">Contact</div>
+        </div>
+        </div>
+        <script>
+            document.getElementById("menu").style.color = "blue";
+        </script>
+    </body>
+</html>
