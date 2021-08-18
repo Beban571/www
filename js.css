@@ -1,0 +1,59 @@
+body {
+    margin 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.container {
+    background-color: black;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo {
+    display: flex;
+    width: 400px;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+h1 {
+    padding: 20px;
+}
+input {
+    width: 64%;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 15px;
+}
+.list {
+    height: 50px;
+    width: 95%;
+    background-color: gray;
+    margin: 5px;
+    display: flex;
+    margin-left: -10px;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+}
+.button {
+    width: 12.7%;
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: blueviolet;
+    margin-left: 3px;
+}
+.containerF {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(126, 126, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
