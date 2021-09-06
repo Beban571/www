@@ -6,5 +6,4 @@ myArray.push("Sagat")
 
 myArray.push("Juri")
 
-
 console.log(myArray)
