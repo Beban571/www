@@ -1,0 +1,19 @@
+{
+  "name": "kurs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musovicdemir/Kurs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musovicdemir/Kurs/issues"
+  },
+  "homepage": "https://github.com/musovicdemir/Kurs#readme"
+}
